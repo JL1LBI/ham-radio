@@ -1,0 +1,592 @@
+Control Identifiers:
+
+Dialog - 'Peanut'    (L21, T54, R932, B413)
+['Dialog', 'PeanutDialog', 'Peanut', 'Dialog0', 'Dialog1']
+child_window(title="Peanut", auto_id="Form1", control_type="Window")
+   | 
+   | Dialog - 'Setup'    (L52, T52, R573, B612)
+   | ['Dialog2', 'Setup', 'SetupDialog', 'Setup0', 'Setup1']
+   | child_window(title="Setup", auto_id="SetupForm", control_type="Window")
+   |    | 
+   |    | Static - 'USTRUST registration'    (L434, T543, R553, B555)
+   |    | ['Static', 'USTRUST registration', 'USTRUST registrationStatic', 'USTRUST registration0', 'USTRUST registration1', 'Static0', 'Static1']
+   |    | child_window(title="USTRUST registration", auto_id="USTRUSTlinkLabel", control_type="Text")
+   |    |    | 
+   |    |    | Hyperlink - 'USTRUST registration'    (L434, T543, R548, B555)
+   |    |    | ['Hyperlink', 'USTRUST registrationHyperlink', 'USTRUST registration2', 'Hyperlink0', 'Hyperlink1']
+   |    |    | child_window(title="USTRUST registration", control_type="Hyperlink")
+   |    | 
+   |    | Static - 'DMR registration'    (L461, T521, R553, B533)
+   |    | ['DMR registrationStatic', 'Static2', 'DMR registration', 'DMR registration0', 'DMR registration1']
+   |    | child_window(title="DMR registration", auto_id="DMRregisterLinkLabel", control_type="Text")
+   |    |    | 
+   |    |    | Hyperlink - 'DMR registration'    (L461, T521, R548, B533)
+   |    |    | ['Hyperlink2', 'DMR registration2', 'DMR registrationHyperlink']
+   |    |    | child_window(title="DMR registration", control_type="Hyperlink")
+   |    | 
+   |    | Static - 'Peanut registration'    (L283, T521, R385, B533)
+   |    | ['Peanut registration', 'Static3', 'Peanut registrationStatic', 'Peanut registration0', 'Peanut registration1']
+   |    | child_window(title="Peanut registration", auto_id="linkLabel2", control_type="Text")
+   |    |    | 
+   |    |    | Hyperlink - 'Peanut registration'    (L283, T521, R380, B533)
+   |    |    | ['Peanut registration2', 'Peanut registrationHyperlink', 'Hyperlink3']
+   |    |    | child_window(title="Peanut registration", control_type="Hyperlink")
+   |    | 
+   |    | GroupBox - 'Serial PTT'    (L283, T413, R546, B513)
+   |    | ['Serial PTT', 'GroupBox', 'Serial PTTGroupBox', 'GroupBox0', 'GroupBox1']
+   |    | child_window(title="Serial PTT", auto_id="serialPttGroupBox", control_type="Group")
+   |    |    | 
+   |    |    | CheckBox - 'Invert CTS'    (L395, T487, R474, B503)
+   |    |    | ['Invert CTSCheckBox', 'CheckBox', 'Invert CTS', 'CheckBox0', 'CheckBox1']
+   |    |    | child_window(title="Invert CTS", auto_id="invertCtsCheckBox", control_type="CheckBox")
+   |    |    | 
+   |    |    | CheckBox - 'Invert RTS'    (L292, T487, R371, B503)
+   |    |    | ['Invert RTS', 'CheckBox2', 'Invert RTSCheckBox']
+   |    |    | child_window(title="Invert RTS", auto_id="invertRtsCheckBox", control_type="CheckBox")
+   |    |    | 
+   |    |    | ComboBox - 'Serial port'    (L358, T458, R490, B478)
+   |    |    | ['ComboBox', 'Serial portComboBox', 'Serial port', 'Serial port0', 'Serial port1', 'ComboBox0', 'ComboBox1']
+   |    |    | child_window(title="Serial port", auto_id="serialPttComboBox", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'Serial port'    (L361, T461, R470, B475)
+   |    |    |    | ['Serial portEdit', 'Edit', 'Edit0', 'Edit1']
+   |    |    |    | child_window(title="Serial port", auto_id="1001", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | Button - 'Open'    (L474, T459, R489, B477)
+   |    |    |    | ['Button', 'OpenButton', 'Open', 'Button0', 'Button1', 'OpenButton0', 'OpenButton1', 'Open0', 'Open1']
+   |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Serial port'    (L292, T462, R350, B474)
+   |    |    | ['Serial port2', 'Static4', 'Serial portStatic']
+   |    |    | child_window(title="Serial port", auto_id="serialPttPortLabel", control_type="Text")
+   |    |    | 
+   |    |    | CheckBox - 'Enabled'    (L292, T433, R356, B449)
+   |    |    | ['EnabledCheckBox', 'Enabled', 'CheckBox3']
+   |    |    | child_window(title="Enabled", auto_id="serialPttEnabledCheckBox", control_type="CheckBox")
+   |    | 
+   |    | GroupBox - 'GPS ( DMS format )'    (L283, T308, R546, B407)
+   |    | ['GPS ( DMS format )', 'GroupBox2', 'GPS ( DMS format )GroupBox']
+   |    | child_window(title="GPS ( DMS format )", auto_id="groupBox5", control_type="Group")
+   |    |    | 
+   |    |    | Static - 'Help'    (L507, T324, R535, B336)
+   |    |    | ['Help', 'HelpStatic', 'Static5', 'Help0', 'Help1']
+   |    |    | child_window(title="Help", auto_id="linkLabel1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Hyperlink - 'Help'    (L507, T324, R530, B336)
+   |    |    |    | ['Hyperlink4', 'Help2', 'HelpHyperlink']
+   |    |    |    | child_window(title="Help", control_type="Hyperlink")
+   |    |    | 
+   |    |    | Static - 'Longitude'    (L292, T378, R346, B390)
+   |    |    | ['LongitudeStatic', 'Static6', 'Longitude']
+   |    |    | child_window(title="Longitude", auto_id="label22", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Latitude'    (L292, T354, R338, B366)
+   |    |    | ['Static7', 'Latitude', 'LatitudeStatic']
+   |    |    | child_window(title="Latitude", auto_id="label21", control_type="Text")
+   |    |    | 
+   |    |    | ComboBox - 'E'    (L448, T373, R490, B393)
+   |    |    | ['ComboBox2', 'E', 'EComboBox']
+   |    |    | child_window(title="E", auto_id="lonNScomboBox", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Static - ''    (L448, T373, R490, B393)
+   |    |    |    | ['Static8', 'Not for commercial use. By David PA7LIMStatic', 'Not for commercial use. By David PA7LIMStatic0', 'Not for commercial use. By David PA7LIMStatic1']
+   |    |    |    | 
+   |    |    |    | Button - 'Open'    (L474, T374, R489, B392)
+   |    |    |    | ['Button2', 'OpenButton2', 'Open2']
+   |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | Edit - '°'    (L409, T374, R443, B393)
+   |    |    | ['°Edit', 'Edit2', '°Edit0', '°Edit1']
+   |    |    | child_window(title="°", auto_id="lonSecondMaskedTextBox", control_type="Edit")
+   |    |    | 
+   |    |    | Static - '°'    (L395, T374, R412, B386)
+   |    |    | ['°', 'Static9', '°Static', '°0', '°1', '°Static0', '°Static1']
+   |    |    | child_window(title="°", auto_id="label20", control_type="Text")
+   |    |    | 
+   |    |    | Edit - '°'    (L358, T374, R392, B393)
+   |    |    | ['LongitudeEdit', 'Edit3']
+   |    |    | child_window(title="°", auto_id="lonFirstMaskedTextBox", control_type="Edit")
+   |    |    | 
+   |    |    | Static - '°'    (L395, T349, R412, B361)
+   |    |    | ['°2', 'Static10', '°Static2']
+   |    |    | child_window(title="°", auto_id="label19", control_type="Text")
+   |    |    | 
+   |    |    | ComboBox - 'N'    (L448, T348, R490, B368)
+   |    |    | ['ComboBox3', 'N', 'NComboBox']
+   |    |    | child_window(title="N", auto_id="latNScomboBox", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Static - ''    (L448, T348, R490, B368)
+   |    |    |    | ['Static11', '°Static3']
+   |    |    |    | 
+   |    |    |    | Button - 'Open'    (L474, T349, R489, B367)
+   |    |    |    | ['Button3', 'OpenButton3', 'Open3']
+   |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | Edit - ''    (L409, T348, R443, B367)
+   |    |    | ['°Edit2', 'Edit4']
+   |    |    | child_window(auto_id="latSecondMaskedTextBox", control_type="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L370, T348, R389, B367)
+   |    |    | ['LatitudeEdit', 'Edit5']
+   |    |    | child_window(auto_id="latFirstMaskedTextBox", control_type="Edit")
+   |    |    | 
+   |    |    | CheckBox - 'Send GPS'    (L290, T328, R365, B344)
+   |    |    | ['CheckBox4', 'Send GPSCheckBox', 'Send GPS']
+   |    |    | child_window(title="Send GPS", auto_id="sendGPSCheckBox", control_type="CheckBox")
+   |    | 
+   |    | GroupBox - 'User info'    (L68, T91, R277, B257)
+   |    | ['GroupBox3', 'User info', 'User infoGroupBox']
+   |    | child_window(title="User info", auto_id="groupBox4", control_type="Group")
+   |    |    | 
+   |    |    | Edit - 'Message'    (L139, T137, R271, B156)
+   |    |    | ['OffEdit', 'Edit6', 'OffEdit0', 'OffEdit1']
+   |    |    | child_window(title="Message", auto_id="messageTextBox", control_type="Edit")
+   |    |    | 
+   |    |    | Static - 'Message'    (L74, T143, R124, B155)
+   |    |    | ['Static12', 'Message', 'MessageStatic', 'Message0', 'Message1', 'MessageStatic0', 'MessageStatic1']
+   |    |    | child_window(title="Message", auto_id="label18", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Not checked'    (L136, T197, R205, B209)
+   |    |    | ['Static13', 'Not checked', 'Not checkedStatic']
+   |    |    | child_window(title="Not checked", auto_id="DSTARUSTRUSTlabel", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Call'    (L74, T116, R99, B128)
+   |    |    | ['Call', 'CallStatic', 'Static14', 'Call0', 'Call1']
+   |    |    | child_window(title="Call", auto_id="label8", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Query'    (L215, T193, R259, B216)
+   |    |    | ['Button4', 'Query', 'QueryButton', 'Query0', 'Query1', 'QueryButton0', 'QueryButton1']
+   |    |    | child_window(title="Query", auto_id="DSTARQueryButton", control_type="Button")
+   |    |    | 
+   |    |    | Edit - ''    (L139, T109, R233, B128)
+   |    |    | ['OffEdit2', 'Edit7']
+   |    |    | child_window(auto_id="CallTextBox", control_type="Edit")
+   |    |    | 
+   |    |    | Static - 'USTRUST'    (L74, T198, R131, B210)
+   |    |    | ['Static15', 'USTRUSTStatic', 'USTRUST']
+   |    |    | child_window(title="USTRUST", auto_id="label16", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Code'    (L74, T227, R105, B239)
+   |    |    | ['Code', 'Static16', 'CodeStatic']
+   |    |    | child_window(title="Code", auto_id="label9", control_type="Text")
+   |    |    | 
+   |    |    | Edit - ''    (L139, T222, R233, B241)
+   |    |    | ['CodeEdit', 'Not checkedEdit', 'Edit8']
+   |    |    | child_window(auto_id="codeTextBox", control_type="Edit")
+   |    |    | 
+   |    |    | Static - 'DMR id'    (L74, T172, R117, B184)
+   |    |    | ['DMR id', 'DMR idStatic', 'Static17', 'DMR idStatic0', 'DMR idStatic1']
+   |    |    | child_window(title="DMR id", auto_id="label12", control_type="Text")
+   |    |    | 
+   |    |    | ComboBox - '4402768'    (L139, T167, R209, B187)
+   |    |    | ['ComboBox4', '4402768ComboBox', '4402768']
+   |    |    | child_window(title="4402768", auto_id="DMRIDcomboBox", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Static - ''    (L139, T167, R209, B187)
+   |    |    |    | ['DMR idStatic2', 'Static18']
+   |    |    |    | 
+   |    |    |    | Button - 'Open'    (L193, T168, R208, B186)
+   |    |    |    | ['Button5', 'OpenButton4', 'Open4']
+   |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Query'    (L215, T166, R259, B189)
+   |    |    | ['Button6', 'Query2', 'QueryButton2']
+   |    |    | child_window(title="Query", auto_id="queryButton", control_type="Button")
+   |    | 
+   |    | GroupBox - 'Sound Card'    (L283, T226, R545, B307)
+   |    | ['Sound CardGroupBox', 'GroupBox4', 'Sound Card']
+   |    | child_window(title="Sound Card", auto_id="groupBox3", control_type="Group")
+   |    |    | 
+   |    |    | Static - 'Microphone'    (L289, T280, R352, B292)
+   |    |    | ['Static19', 'Microphone', 'MicrophoneStatic', 'MicrophoneStatic0', 'MicrophoneStatic1', 'Microphone0', 'Microphone1']
+   |    |    | child_window(title="Microphone", auto_id="label14", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Speaker'    (L289, T252, R335, B264)
+   |    |    | ['SpeakerStatic', 'Static20', 'Speaker']
+   |    |    | child_window(title="Speaker", auto_id="label13", control_type="Text")
+   |    |    | 
+   |    |    | ComboBox - 'CABLE Output (VB-Audio Virtual '    (L373, T273, R539, B293)
+   |    |    | ['ComboBox5', 'CABLE Output (VB-Audio Virtual ComboBox', 'CABLE Output (VB-Audio Virtual ']
+   |    |    | child_window(title="CABLE Output (VB-Audio Virtual ", auto_id="microphoneComboBox", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Static - ''    (L373, T273, R539, B293)
+   |    |    |    | ['Static21', 'MicrophoneStatic2']
+   |    |    |    | 
+   |    |    |    | Button - 'Open'    (L523, T274, R538, B292)
+   |    |    |    | ['Button7', 'OpenButton5', 'Open5']
+   |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | ComboBox - 'Microphone'    (L373, T245, R539, B265)
+   |    |    | ['ComboBox6', 'MicrophoneComboBox', 'Microphone2']
+   |    |    | child_window(title="Microphone", auto_id="speakerComboBox", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Static - 'Microphone'    (L373, T245, R539, B265)
+   |    |    |    | ['Static22', 'Microphone3', 'MicrophoneStatic3']
+   |    |    |    | child_window(title="Microphone", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'Open'    (L523, T246, R538, B264)
+   |    |    |    | ['Button8', 'OpenButton6', 'Open6']
+   |    |    |    | child_window(title="Open", control_type="Button")
+   |    | 
+   |    | Button - 'Cancel'    (L464, T569, R539, B592)
+   |    | ['Button9', 'Cancel', 'CancelButton']
+   |    | child_window(title="Cancel", auto_id="cancelButton", control_type="Button")
+   |    | 
+   |    | Button - 'Save'    (L380, T569, R455, B592)
+   |    | ['Save', 'Button10', 'SaveButton']
+   |    | child_window(title="Save", auto_id="saveButton", control_type="Button")
+   |    | 
+   |    | GroupBox - 'General'    (L68, T263, R277, B480)
+   |    | ['GroupBox5', 'GeneralGroupBox', 'General']
+   |    | child_window(title="General", auto_id="groupBox2", control_type="Group")
+   |    |    | 
+   |    |    | CheckBox - 'Log lastheard'    (L153, T447, R168, B461)
+   |    |    | ['Log lastheardCheckBox', 'CheckBox5', 'Log lastheard', 'Log lastheard0', 'Log lastheard1']
+   |    |    | child_window(title="Log lastheard", auto_id="lastheardCheckBox", control_type="CheckBox")
+   |    |    | 
+   |    |    | Static - 'Log lastheard'    (L74, T446, R148, B458)
+   |    |    | ['Static23', 'Log lastheardStatic', 'Log lastheard2']
+   |    |    | child_window(title="Log lastheard", auto_id="label17", control_type="Text")
+   |    |    | 
+   |    |    | CheckBox - 'RX/TX Colors'    (L153, T422, R168, B436)
+   |    |    | ['RX/TX ColorsCheckBox', 'CheckBox6', 'RX/TX Colors', 'RX/TX Colors0', 'RX/TX Colors1']
+   |    |    | child_window(title="RX/TX Colors", auto_id="RXTXColorsCheckBox", control_type="CheckBox")
+   |    |    | 
+   |    |    | Static - 'RX/TX Colors'    (L74, T421, R151, B433)
+   |    |    | ['RX/TX ColorsStatic', 'Static24', 'RX/TX Colors2']
+   |    |    | child_window(title="RX/TX Colors", auto_id="label15", control_type="Text")
+   |    |    | 
+   |    |    | CheckBox - ''    (L153, T393, R168, B407)
+   |    |    | ['CheckBox7', 'SpaceBar PTTCheckBox']
+   |    |    | child_window(auto_id="spaceBarPTTCheckBox", control_type="CheckBox")
+   |    |    | 
+   |    |    | Static - 'SpaceBar PTT'    (L74, T393, R153, B405)
+   |    |    | ['SpaceBar PTTStatic', 'Static25', 'SpaceBar PTT']
+   |    |    | child_window(title="SpaceBar PTT", auto_id="label11", control_type="Text")
+   |    |    | 
+   |    |    | CheckBox - ''    (L153, T365, R168, B379)
+   |    |    | ['CheckBox8', 'Always on topCheckBox']
+   |    |    | child_window(auto_id="alwaysOnTopCheckBox", control_type="CheckBox")
+   |    |    | 
+   |    |    | Static - 'Always on top'    (L74, T366, R152, B378)
+   |    |    | ['Static26', 'Always on topStatic', 'Always on top']
+   |    |    | child_window(title="Always on top", auto_id="label10", control_type="Text")
+   |    |    | 
+   |    |    | CheckBox - ''    (L153, T339, R168, B353)
+   |    |    | ['BeepCheckBox', 'CheckBox9']
+   |    |    | child_window(auto_id="beepCheckBox", control_type="CheckBox")
+   |    |    | 
+   |    |    | Static - 'Beep'    (L74, T340, R105, B352)
+   |    |    | ['Beep', 'Static27', 'BeepStatic']
+   |    |    | child_window(title="Beep", auto_id="label7", control_type="Text")
+   |    |    | 
+   |    |    | ComboBox - 'Japan'    (L139, T308, R233, B328)
+   |    |    | ['ComboBox7', 'Japan', 'JapanComboBox']
+   |    |    | child_window(title="Japan", auto_id="masterlistComboBox", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Static - ''    (L139, T308, R233, B328)
+   |    |    |    | ['Static28', 'PowerStatic', 'PowerStatic0', 'PowerStatic1']
+   |    |    |    | 
+   |    |    |    | Button - 'Open'    (L217, T309, R232, B327)
+   |    |    |    | ['Button11', 'OpenButton7', 'Open7']
+   |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Device'    (L74, T285, R114, B297)
+   |    |    | ['DeviceStatic', 'Static29', 'Device']
+   |    |    | child_window(title="Device", auto_id="label6", control_type="Text")
+   |    |    | 
+   |    |    | ComboBox - 'Power'    (L139, T281, R233, B301)
+   |    |    | ['ComboBox8', 'Power', 'PowerComboBox', 'Power0', 'Power1']
+   |    |    | child_window(title="Power", auto_id="deviceComboBox", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Static - 'Power'    (L139, T281, R233, B301)
+   |    |    |    | ['Static30', 'Power2', 'PowerStatic2']
+   |    |    |    | child_window(title="Power", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'Open'    (L217, T282, R232, B300)
+   |    |    |    | ['Button12', 'OpenButton8', 'Open8']
+   |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Master'    (L74, T312, R114, B324)
+   |    |    | ['Master', 'Static31', 'MasterStatic']
+   |    |    | child_window(title="Master", auto_id="label4", control_type="Text")
+   |    | 
+   |    | GroupBox - 'DVAP'    (L283, T91, R546, B220)
+   |    | ['DVAPGroupBox', 'GroupBox6', 'DVAP']
+   |    | child_window(title="DVAP", auto_id="groupBox1", control_type="Group")
+   |    |    | 
+   |    |    | Static - 'Power'    (L289, T195, R325, B207)
+   |    |    | ['Static32', 'Power3', 'PowerStatic3']
+   |    |    | child_window(title="Power", auto_id="label5", control_type="Text")
+   |    |    | 
+   |    |    | Slider - 'Frequency Tune'    (L380, T188, R501, B213)
+   |    |    | ['Frequency TuneSlider', 'Slider', 'PowerSlider', 'Frequency TuneSlider0', 'Frequency TuneSlider1', 'Slider0', 'Slider1']
+   |    |    | child_window(title="Frequency Tune", auto_id="PowerTrackBar", control_type="Slider")
+   |    |    |    | 
+   |    |    |    | Button - '左へドラッグ'    (L388, T196, R439, B200)
+   |    |    |    | ['Button13', '左へドラッグ', '左へドラッグButton', '左へドラッグ0', '左へドラッグ1', '左へドラッグButton0', '左へドラッグButton1']
+   |    |    |    | child_window(title="左へドラッグ", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Thumb - '表示位置'    (L439, T190, R450, B209)
+   |    |    |    | ['Thumb', '表示位置Thumb', '表示位置', 'Thumb0', 'Thumb1', '表示位置Thumb0', '表示位置Thumb1', '表示位置0', '表示位置1']
+   |    |    |    | child_window(title="表示位置", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | Button - '右へドラッグ'    (L450, T196, R493, B200)
+   |    |    |    | ['右へドラッグButton', 'Button14', '右へドラッグ', '右へドラッグButton0', '右へドラッグButton1', '右へドラッグ0', '右へドラッグ1']
+   |    |    |    | child_window(title="右へドラッグ", control_type="Button")
+   |    |    | 
+   |    |    | Edit - '0'    (L380, T136, R501, B155)
+   |    |    | ['FrequencyEdit', 'Edit9']
+   |    |    | child_window(title="0", auto_id="FrequencyTextBox", control_type="Edit")
+   |    |    | 
+   |    |    | Static - 'Frequency'    (L289, T144, R347, B156)
+   |    |    | ['Static33', 'FrequencyStatic', 'Frequency', 'Frequency0', 'Frequency1', 'FrequencyStatic0', 'FrequencyStatic1']
+   |    |    | child_window(title="Frequency", auto_id="label2", control_type="Text")
+   |    |    | 
+   |    |    | ComboBox - 'Frequency'    (L380, T109, R501, B129)
+   |    |    | ['ComboBox9', 'Frequency2', 'FrequencyComboBox']
+   |    |    | child_window(title="Frequency", auto_id="comboBox1", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'Frequency'    (L383, T112, R481, B126)
+   |    |    |    | ['RoomEdit', 'Edit10']
+   |    |    |    | child_window(title="Frequency", auto_id="1001", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | Button - 'Open'    (L485, T110, R500, B128)
+   |    |    |    | ['Button15', 'OpenButton9', 'Open9']
+   |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'DVAP serial'    (L289, T117, R357, B129)
+   |    |    | ['DVAP serialStatic', 'Static34', 'DVAP serial']
+   |    |    | child_window(title="DVAP serial", auto_id="label1", control_type="Text")
+   |    |    | 
+   |    |    | Slider - ''    (L380, T163, R501, B192)
+   |    |    | ['Frequency TuneSlider2', 'DVAP serialSlider', 'Slider2']
+   |    |    | child_window(auto_id="trackBar1", control_type="Slider")
+   |    |    |    | 
+   |    |    |    | Button - '左へドラッグ'    (L388, T171, R435, B175)
+   |    |    |    | ['Button16', '左へドラッグ2', '左へドラッグButton2']
+   |    |    |    | child_window(title="左へドラッグ", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Thumb - '表示位置'    (L435, T165, R446, B184)
+   |    |    |    | ['Thumb2', '表示位置Thumb2', '表示位置2']
+   |    |    |    | child_window(title="表示位置", control_type="Thumb")
+   |    |    |    | 
+   |    |    |    | Button - '右へドラッグ'    (L446, T171, R493, B175)
+   |    |    |    | ['右へドラッグButton2', 'Button17', '右へドラッグ2']
+   |    |    |    | child_window(title="右へドラッグ", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Frequency Tune'    (L289, T171, R376, B183)
+   |    |    | ['Frequency Tune', 'Static35', 'Frequency TuneStatic']
+   |    |    | child_window(title="Frequency Tune", auto_id="label3", control_type="Text")
+   |    |    | 
+   |    |    | Static - '0'    (L507, T165, R518, B177)
+   |    |    | ['Static36', '0Static', '0']
+   |    |    | child_window(title="0", auto_id="calibrationLabel", control_type="Text")
+   |    | 
+   |    | TitleBar - ''    (L72, T55, R569, B79)
+   |    | ['TitleBar', 'TitleBar0', 'TitleBar1']
+   |    |    | 
+   |    |    | Menu - 'システム'    (L56, T56, R78, B78)
+   |    |    | ['システム', 'Menu', 'システムMenu', 'システム0', 'システム1', 'Menu0', 'Menu1', 'システムMenu0', 'システムMenu1']
+   |    |    | child_window(title="システム", auto_id="MenuBar", control_type="MenuBar")
+   |    |    |    | 
+   |    |    |    | MenuItem - 'システム'    (L56, T56, R78, B78)
+   |    |    |    | ['システムMenuItem', 'システム2', 'MenuItem', 'システムMenuItem0', 'システムMenuItem1', 'MenuItem0', 'MenuItem1']
+   |    |    |    | child_window(title="システム", control_type="MenuItem")
+   |    |    | 
+   |    |    | Button - '最小化'    (L430, T53, R477, B79)
+   |    |    | ['Button18', '最小化', '最小化Button', '最小化0', '最小化1', '最小化Button0', '最小化Button1']
+   |    |    | child_window(title="最小化", control_type="Button")
+   |    |    | 
+   |    |    | Button - '最大化'    (L477, T53, R523, B79)
+   |    |    | ['Button19', '最大化Button', '最大化', '最大化Button0', '最大化Button1', '最大化0', '最大化1']
+   |    |    | child_window(title="最大化", control_type="Button")
+   |    |    | 
+   |    |    | Button - '閉じる'    (L523, T53, R570, B79)
+   |    |    | ['閉じるButton', '閉じる', 'Button20', '閉じるButton0', '閉じるButton1', '閉じる0', '閉じる1']
+   |    |    | child_window(title="閉じる", control_type="Button")
+   | 
+   | Pane - 'SCAN'    (L442, T117, R464, B140)
+   | ['SCANPane', 'Pane', 'SCAN', 'Pane0', 'Pane1']
+   | child_window(title="SCAN", auto_id="roomPictureBoxLink", control_type="Pane")
+   | 
+   | TabControl - 'Category'    (L705, T117, R863, B346)
+   | ['TabControl', 'Category', 'CategoryTabControl', 'Category0', 'Category1']
+   | child_window(title="Category", auto_id="tabControl1", control_type="Tab")
+   |    | 
+   |    | Pane - 'LastHeard'    (L709, T139, R859, B342)
+   |    | ['Pane2', 'LastHeardPane', 'LastHeard', 'LastHeard0', 'LastHeard1']
+   |    | child_window(title="LastHeard", auto_id="tabPage1", control_type="Pane")
+   |    |    | 
+   |    |    | ListBox - ''    (L709, T139, R859, B339)
+   |    |    | ['ListBox', '0ListBox']
+   |    |    | child_window(auto_id="lastheardListView", control_type="List")
+   |    |    |    | 
+   |    |    |    | Header - 'ヘッダー コントロール'    (L711, T141, R857, B165)
+   |    |    |    | ['ヘッダー コントロールHeader', 'ヘッダー コントロール', 'Header']
+   |    |    |    | child_window(title="ヘッダー コントロール", auto_id="Header", control_type="Header")
+   |    |    |    |    | 
+   |    |    |    |    | HeaderItem - 'Call'    (L711, T141, R771, B165)
+   |    |    |    |    | ['Call2', 'HeaderItem', 'CallHeaderItem', 'HeaderItem0', 'HeaderItem1']
+   |    |    |    |    | child_window(title="Call", auto_id="HeaderItem 0", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | HeaderItem - 'Room'    (L771, T141, R857, B165)
+   |    |    |    |    | ['Room', 'HeaderItem2', 'RoomHeaderItem', 'Room0', 'Room1']
+   |    |    |    |    | child_window(title="Room", auto_id="HeaderItem 1", control_type="HeaderItem")
+   |    | 
+   |    | TabItem - 'LastHeard'    (L707, T119, R771, B137)
+   |    | ['LastHeardTabItem', 'TabItem', 'LastHeard2', 'TabItem0', 'TabItem1']
+   |    | child_window(title="LastHeard", control_type="TabItem")
+   |    | 
+   |    | TabItem - 'Online'    (L771, T119, R815, B137)
+   |    | ['Online', 'OnlineTabItem', 'TabItem2']
+   |    | child_window(title="Online", control_type="TabItem")
+   |    | 
+   |    | TabItem - 'Scan'    (L815, T119, R857, B137)
+   |    | ['TabItem3', 'ScanTabItem', 'Scan']
+   |    | child_window(title="Scan", control_type="TabItem")
+   | 
+   | Pane - 'Category'    (L624, T281, R643, B300)
+   | ['Category2', 'Pane3', 'CategoryPane', 'CategoryPane0', 'CategoryPane1']
+   | child_window(title="Category", auto_id="pictureBox2", control_type="Pane")
+   | 
+   | Pane - 'Category'    (L645, T281, R662, B298)
+   | ['Category3', 'Pane4', 'CategoryPane2']
+   | child_window(title="Category", auto_id="TXLEDpictureBox", control_type="Pane")
+   | 
+   | Static - 'Category'    (L247, T96, R319, B114)
+   | ['Category4', 'CategoryStatic', 'Static37', 'CategoryStatic0', 'CategoryStatic1']
+   | child_window(title="Category", auto_id="label6", control_type="Text")
+   | 
+   | ComboBox - 'JP'    (L250, T117, R334, B137)
+   | ['ComboBox10', 'JP', 'JPComboBox']
+   | child_window(title="JP", auto_id="countryComboBox", control_type="ComboBox")
+   |    | 
+   |    | Static - ''    (L250, T117, R334, B137)
+   |    | ['CategoryStatic2', 'Static38']
+   |    | 
+   |    | Button - 'Open'    (L318, T118, R333, B136)
+   |    | ['Button21', 'OpenButton10', 'Open10']
+   |    | child_window(title="Open", control_type="Button")
+   | 
+   | Pane - 'Category'    (L512, T281, R531, B300)
+   | ['Category5', 'Pane5', 'CategoryPane3']
+   | child_window(title="Category", auto_id="pictureBox1", control_type="Pane")
+   | 
+   | Pane - ''    (L488, T304, R685, B346)
+   | ['Pane6', '関東エリアPane']
+   | child_window(auto_id="onAIRswitch", control_type="Pane")
+   | 
+   | Pane - 'Category'    (L533, T281, R550, B298)
+   | ['Category6', 'Pane7', 'CategoryPane4']
+   | child_window(title="Category", auto_id="RXLEDpictureBox", control_type="Pane")
+   | 
+   | Button - 'About'    (L569, T117, R644, B140)
+   | ['Button22', 'AboutButton', 'About']
+   | child_window(title="About", auto_id="aboutButton", control_type="Button")
+   | 
+   | Static - 'On'    (L210, T123, R231, B137)
+   | ['On', 'Static39', 'OnStatic']
+   | child_window(title="On", auto_id="label5", control_type="Text")
+   | 
+   | Static - 'Off'    (L118, T123, R141, B137)
+   | ['Off', 'Static40', 'OffStatic']
+   | child_window(title="Off", auto_id="label4", control_type="Text")
+   | 
+   | Static - 'Version 2.4.7'    (L466, T378, R662, B391)
+   | ['Version 2.4.7', 'Version 2.4.7Static', 'Static41']
+   | child_window(title="Version 2.4.7", auto_id="version", control_type="Text")
+   | 
+   | Button - 'Setup'    (L488, T117, R563, B140)
+   | ['Setup2', 'Button23', 'SetupButton']
+   | child_window(title="Setup", auto_id="setupButton", control_type="Button")
+   | 
+   | Pane - ''    (L145, T111, R204, B138)
+   | ['Pane8', 'OffPane']
+   | child_window(auto_id="OnOffToggleSwitch", control_type="Pane")
+   | 
+   | Static - 'Room'    (L337, T96, R387, B114)
+   | ['Room2', 'Static42', 'RoomStatic', 'RoomStatic0', 'RoomStatic1']
+   | child_window(title="Room", auto_id="roomStaticLabel", control_type="Text")
+   | 
+   | Pane - 'RSSI'    (L488, T152, R685, B275)
+   | ['Pane9', 'RSSIPane', 'RSSI']
+   | child_window(title="RSSI", auto_id="VUGauge", control_type="Pane")
+   | 
+   | Pane - 'Room'    (L72, T152, R464, B341)
+   | ['Room3', 'RoomPane', 'Pane10']
+   | child_window(title="Room", auto_id="panel1", control_type="Pane")
+   |    | 
+   |    | Static - 'Message'    (L84, T268, R149, B285)
+   |    | ['Static43', 'Message2', 'MessageStatic2']
+   |    | child_window(title="Message", auto_id="messageLabel", control_type="Text")
+   |    | 
+   |    | Static - '関東エリア'    (L78, T314, R459, B335)
+   |    | ['関東エリアStatic', 'Static44', '関東エリア']
+   |    | child_window(title="関東エリア", auto_id="roomDescriptionLabel", control_type="Text")
+   |    | 
+   |    | Static - 'NAME'    (L78, T226, R204, B261)
+   |    | ['Static45', 'NAMEStatic', 'NAME']
+   |    | child_window(title="NAME", auto_id="nameStaticLabel", control_type="Text")
+   |    | 
+   |    | Static - 'Hardware'    (L200, T160, R256, B174)
+   |    | ['Static46', 'HardwareStatic', 'Hardware']
+   |    | child_window(title="Hardware", auto_id="HardwareLabel", control_type="Text")
+   |    | 
+   |    | Static - 'Frequency'    (L334, T160, R393, B174)
+   |    | ['Static47', 'FrequencyStatic2', 'Frequency3']
+   |    | child_window(title="Frequency", auto_id="label1", control_type="Text")
+   |    | 
+   |    | Static - 'CALL'    (L78, T186, R190, B228)
+   |    | ['Static48', 'CALLStatic', 'CALL']
+   |    | child_window(title="CALL", auto_id="label2", control_type="Text")
+   |    | 
+   |    | Static - 'PTT OFF'    (L81, T160, R177, B184)
+   |    | ['Static49', 'PTT OFF', 'PTT OFFStatic', 'PTT OFF0', 'PTT OFF1', 'PTT OFFStatic0', 'PTT OFFStatic1']
+   |    | child_window(title="PTT OFF", auto_id="PTTlabel", control_type="Text")
+   |    | 
+   |    | Static - 'Disconnected'    (L78, T295, R176, B312)
+   |    | ['DisconnectedStatic', 'Static50', 'Disconnected']
+   |    | child_window(title="Disconnected", auto_id="hostStatus", control_type="Text")
+   |    | 
+   |    | Static - 'PTT OFF'    (L196, T186, R459, B228)
+   |    | ['Static51', 'PTT OFF2', 'PTT OFFStatic2']
+   |    | child_window(title="PTT OFF", auto_id="hisCallLabel", control_type="Text")
+   | 
+   | ComboBox - 'J1-TOKYO'    (L340, T117, R434, B137)
+   | ['ComboBox11', 'J1-TOKYOComboBox', 'J1-TOKYO']
+   | child_window(title="J1-TOKYO", auto_id="RoomComboBox", control_type="ComboBox")
+   |    | 
+   |    | Static - ''    (L340, T117, R434, B137)
+   |    | ['Static52', 'RoomStatic2']
+   |    | 
+   |    | Button - 'Open'    (L418, T118, R433, B136)
+   |    | ['Button24', 'OpenButton11', 'Open11']
+   |    | child_window(title="Open", control_type="Button")
+   | 
+   | Static - 'Not for commercial use. By David PA7LIM'    (L245, T378, R450, B391)
+   | ['Not for commercial use. By David PA7LIM', 'Static53', 'Not for commercial use. By David PA7LIMStatic2']
+   | child_window(title="Not for commercial use. By David PA7LIM", auto_id="label9", control_type="Text")
+   | 
+   | TitleBar - ''    (L42, T57, R927, B82)
+   | ['TitleBar2']
+   |    | 
+   |    | Menu - 'システム'    (L24, T57, R46, B79)
+   |    | ['システム3', 'Menu2', 'システムMenu2']
+   |    | child_window(title="システム", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'システム'    (L24, T57, R46, B79)
+   |    |    | ['システムMenuItem2', 'システム4', 'MenuItem2']
+   |    |    | child_window(title="システム", control_type="MenuItem")
+   |    | 
+   |    | Button - '最小化'    (L788, T55, R835, B82)
+   |    | ['Button25', '最小化2', '最小化Button2']
+   |    | child_window(title="最小化", control_type="Button")
+   |    | 
+   |    | Button - '最大化'    (L835, T55, R881, B82)
+   |    | ['Button26', '最大化Button2', '最大化2']
+   |    | child_window(title="最大化", control_type="Button")
+   |    | 
+   |    | Button - '閉じる'    (L881, T55, R928, B82)
+   |    | ['閉じるButton2', '閉じる2', 'Button27']
+   |    | child_window(title="閉じる", control_type="Button")

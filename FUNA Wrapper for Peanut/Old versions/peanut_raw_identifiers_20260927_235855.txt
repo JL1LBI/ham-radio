@@ -1,0 +1,190 @@
+Control Identifiers:
+
+Dialog - 'Peanut'    (L913, T119, R1824, B478)
+['PeanutDialog', 'Peanut', 'Dialog']
+child_window(title="Peanut", auto_id="Form1", control_type="Window")
+   | 
+   | Pane - 'SCAN'    (L1334, T182, R1356, B205)
+   | ['Pane', 'SCANPane', 'SCAN', 'Pane0', 'Pane1']
+   | child_window(title="SCAN", auto_id="roomPictureBoxLink", control_type="Pane")
+   | 
+   | TabControl - 'Category'    (L1597, T182, R1755, B411)
+   | ['Category', 'TabControl', 'CategoryTabControl', 'Category0', 'Category1']
+   | child_window(title="Category", auto_id="tabControl1", control_type="Tab")
+   |    | 
+   |    | Pane - 'LastHeard'    (L1601, T204, R1751, B407)
+   |    | ['Pane2', 'LastHeard', 'LastHeardPane', 'LastHeard0', 'LastHeard1']
+   |    | child_window(title="LastHeard", auto_id="tabPage1", control_type="Pane")
+   |    |    | 
+   |    |    | ListBox - ''    (L1601, T204, R1751, B404)
+   |    |    | ['ListBox', 'PTT OFFListBox']
+   |    |    | child_window(auto_id="lastheardListView", control_type="List")
+   |    |    |    | 
+   |    |    |    | Header - 'ヘッダー コントロール'    (L1603, T206, R1749, B230)
+   |    |    |    | ['Header', 'ヘッダー コントロールHeader', 'ヘッダー コントロール']
+   |    |    |    | child_window(title="ヘッダー コントロール", auto_id="Header", control_type="Header")
+   |    |    |    |    | 
+   |    |    |    |    | HeaderItem - 'Call'    (L1603, T206, R1663, B230)
+   |    |    |    |    | ['CallHeaderItem', 'Call', 'HeaderItem', 'HeaderItem0', 'HeaderItem1']
+   |    |    |    |    | child_window(title="Call", auto_id="HeaderItem 0", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | HeaderItem - 'Room'    (L1663, T206, R1749, B230)
+   |    |    |    |    | ['RoomHeaderItem', 'Room', 'HeaderItem2', 'Room0', 'Room1']
+   |    |    |    |    | child_window(title="Room", auto_id="HeaderItem 1", control_type="HeaderItem")
+   |    | 
+   |    | TabItem - 'LastHeard'    (L1599, T184, R1663, B202)
+   |    | ['TabItem', 'LastHeard2', 'LastHeardTabItem', 'TabItem0', 'TabItem1']
+   |    | child_window(title="LastHeard", control_type="TabItem")
+   |    | 
+   |    | TabItem - 'Online'    (L1663, T184, R1707, B202)
+   |    | ['Online', 'TabItem2', 'OnlineTabItem']
+   |    | child_window(title="Online", control_type="TabItem")
+   |    | 
+   |    | TabItem - 'Scan'    (L1707, T184, R1749, B202)
+   |    | ['ScanTabItem', 'Scan', 'TabItem3']
+   |    | child_window(title="Scan", control_type="TabItem")
+   | 
+   | Pane - 'Category'    (L1516, T346, R1535, B365)
+   | ['CategoryPane', 'Category2', 'Pane3', 'CategoryPane0', 'CategoryPane1']
+   | child_window(title="Category", auto_id="pictureBox2", control_type="Pane")
+   | 
+   | Pane - 'Category'    (L1537, T346, R1554, B363)
+   | ['CategoryPane2', 'Category3', 'Pane4']
+   | child_window(title="Category", auto_id="TXLEDpictureBox", control_type="Pane")
+   | 
+   | Static - 'Category'    (L1139, T161, R1211, B179)
+   | ['Static', 'CategoryStatic', 'Category4', 'Static0', 'Static1', 'CategoryStatic0', 'CategoryStatic1']
+   | child_window(title="Category", auto_id="label6", control_type="Text")
+   | 
+   | ComboBox - 'JP'    (L1142, T182, R1226, B202)
+   | ['JPComboBox', 'ComboBox', 'JP', 'ComboBox0', 'ComboBox1']
+   | child_window(title="JP", auto_id="countryComboBox", control_type="ComboBox")
+   |    | 
+   |    | Static - ''    (L1142, T182, R1226, B202)
+   |    | ['Static2', 'CategoryStatic2']
+   |    | 
+   |    | Button - 'Open'    (L1210, T183, R1225, B201)
+   |    | ['Open', 'OpenButton', 'Button', 'Button0', 'Button1', 'Open0', 'Open1', 'OpenButton0', 'OpenButton1']
+   |    | child_window(title="Open", control_type="Button")
+   | 
+   | Pane - 'Category'    (L1404, T346, R1423, B365)
+   | ['CategoryPane3', 'Category5', 'Pane5']
+   | child_window(title="Category", auto_id="pictureBox1", control_type="Pane")
+   | 
+   | Pane - ''    (L1380, T369, R1577, B411)
+   | ['Pane6', '信州エリアPane']
+   | child_window(auto_id="onAIRswitch", control_type="Pane")
+   | 
+   | Pane - 'Category'    (L1425, T346, R1442, B363)
+   | ['CategoryPane4', 'Category6', 'Pane7']
+   | child_window(title="Category", auto_id="RXLEDpictureBox", control_type="Pane")
+   | 
+   | Button - 'About'    (L1461, T182, R1536, B205)
+   | ['About', 'AboutButton', 'Button2']
+   | child_window(title="About", auto_id="aboutButton", control_type="Button")
+   | 
+   | Static - 'On'    (L1102, T188, R1123, B202)
+   | ['On', 'Static3', 'OnStatic']
+   | child_window(title="On", auto_id="label5", control_type="Text")
+   | 
+   | Static - 'Off'    (L1010, T188, R1033, B202)
+   | ['Static4', 'OffStatic', 'Off']
+   | child_window(title="Off", auto_id="label4", control_type="Text")
+   | 
+   | Static - 'Version 2.4.7'    (L1358, T443, R1554, B456)
+   | ['Static5', 'Version 2.4.7', 'Version 2.4.7Static']
+   | child_window(title="Version 2.4.7", auto_id="version", control_type="Text")
+   | 
+   | Button - 'Setup'    (L1380, T182, R1455, B205)
+   | ['Setup', 'SetupButton', 'Button3']
+   | child_window(title="Setup", auto_id="setupButton", control_type="Button")
+   | 
+   | Pane - ''    (L1037, T176, R1096, B203)
+   | ['Pane8', 'OffPane']
+   | child_window(auto_id="OnOffToggleSwitch", control_type="Pane")
+   | 
+   | Static - 'Room'    (L1229, T161, R1279, B179)
+   | ['Static6', 'RoomStatic', 'Room2', 'RoomStatic0', 'RoomStatic1']
+   | child_window(title="Room", auto_id="roomStaticLabel", control_type="Text")
+   | 
+   | Pane - 'RSSI'    (L1380, T217, R1577, B340)
+   | ['Pane9', 'RSSI', 'RSSIPane']
+   | child_window(title="RSSI", auto_id="VUGauge", control_type="Pane")
+   | 
+   | Pane - 'Room'    (L964, T217, R1356, B406)
+   | ['RoomPane', 'Pane10', 'Room3']
+   | child_window(title="Room", auto_id="panel1", control_type="Pane")
+   |    | 
+   |    | Static - 'Message'    (L976, T333, R1041, B350)
+   |    | ['Static7', 'Message', 'MessageStatic']
+   |    | child_window(title="Message", auto_id="messageLabel", control_type="Text")
+   |    | 
+   |    | Static - '信州エリア'    (L970, T379, R1351, B400)
+   |    | ['Static8', '信州エリア', '信州エリアStatic']
+   |    | child_window(title="信州エリア", auto_id="roomDescriptionLabel", control_type="Text")
+   |    | 
+   |    | Static - 'NAME'    (L970, T291, R1096, B326)
+   |    | ['Static9', 'NAME', 'NAMEStatic']
+   |    | child_window(title="NAME", auto_id="nameStaticLabel", control_type="Text")
+   |    | 
+   |    | Static - 'Not detected'    (L1150, T225, R1221, B237)
+   |    | ['Static10', 'Not detected', 'Not detectedStatic']
+   |    | child_window(title="Not detected", auto_id="DVAPLabel", control_type="Text")
+   |    | 
+   |    | Static - 'Hardware'    (L1092, T225, R1148, B239)
+   |    | ['Static11', 'HardwareStatic', 'Hardware']
+   |    | child_window(title="Hardware", auto_id="HardwareLabel", control_type="Text")
+   |    | 
+   |    | Static - 'Frequency'    (L1226, T225, R1285, B239)
+   |    | ['Static12', 'Frequency', 'FrequencyStatic']
+   |    | child_window(title="Frequency", auto_id="label1", control_type="Text")
+   |    | 
+   |    | Static - 'CALL'    (L970, T251, R1082, B293)
+   |    | ['Static13', 'CALL', 'CALLStatic']
+   |    | child_window(title="CALL", auto_id="label2", control_type="Text")
+   |    | 
+   |    | Static - 'PTT OFF'    (L973, T225, R1069, B249)
+   |    | ['Static14', 'PTT OFFStatic', 'PTT OFF', 'PTT OFFStatic0', 'PTT OFFStatic1', 'PTT OFF0', 'PTT OFF1']
+   |    | child_window(title="PTT OFF", auto_id="PTTlabel", control_type="Text")
+   |    | 
+   |    | Static - 'PTT OFF'    (L1088, T251, R1351, B293)
+   |    | ['Static15', 'PTT OFFStatic2', 'PTT OFF2']
+   |    | child_window(title="PTT OFF", auto_id="hisCallLabel", control_type="Text")
+   | 
+   | ComboBox - 'JO-SUWA'    (L1232, T182, R1326, B202)
+   | ['ComboBox2', 'JO-SUWAComboBox', 'JO-SUWA']
+   | child_window(title="JO-SUWA", auto_id="RoomComboBox", control_type="ComboBox")
+   |    | 
+   |    | Static - ''    (L1232, T182, R1326, B202)
+   |    | ['Static16', 'RoomStatic2']
+   |    | 
+   |    | Button - 'Open'    (L1310, T183, R1325, B201)
+   |    | ['Open2', 'OpenButton2', 'Button4']
+   |    | child_window(title="Open", control_type="Button")
+   | 
+   | Static - 'Not for commercial use. By David PA7LIM'    (L1137, T443, R1342, B456)
+   | ['Static17', 'Not for commercial use. By David PA7LIM', 'Not for commercial use. By David PA7LIMStatic']
+   | child_window(title="Not for commercial use. By David PA7LIM", auto_id="label9", control_type="Text")
+   | 
+   | TitleBar - ''    (L934, T122, R1819, B147)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'システム'    (L916, T122, R938, B144)
+   |    | ['システム', 'システムMenu', 'Menu', 'システム0', 'システム1']
+   |    | child_window(title="システム", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'システム'    (L916, T122, R938, B144)
+   |    |    | ['MenuItem', 'システム2', 'システムMenuItem']
+   |    |    | child_window(title="システム", control_type="MenuItem")
+   |    | 
+   |    | Button - '最小化'    (L1680, T120, R1727, B147)
+   |    | ['最小化Button', '最小化', 'Button5']
+   |    | child_window(title="最小化", control_type="Button")
+   |    | 
+   |    | Button - '最大化'    (L1727, T120, R1773, B147)
+   |    | ['最大化Button', 'Button6', '最大化']
+   |    | child_window(title="最大化", control_type="Button")
+   |    | 
+   |    | Button - '閉じる'    (L1773, T120, R1820, B147)
+   |    | ['閉じる', '閉じるButton', 'Button7']
+   |    | child_window(title="閉じる", control_type="Button")
