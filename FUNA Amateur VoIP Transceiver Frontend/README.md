@@ -1,6 +1,3 @@
-# README.md
-
-```markdown
 # FUNA Amateur VoIP Transceiver Frontend (IU2EUG Appliance)
 
 A lightweight, keyboard-driven MS-DOS/VFO-style Textual TUI frontend for **DMR Master** on Windows.  
