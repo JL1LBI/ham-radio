@@ -1,9 +1,3 @@
-以下は、スクリプトの仕様と設計思想に合わせて作成した `README.md` です。1つのファイル内に日本語版と英語版の両方を整理して収録しています。プロジェクトのルートディレクトリに配置してご利用ください。
-
----
-
-# README.md
-
 ```markdown
 # FUNA Amateur VoIP Transceiver Frontend (IU2EUG Appliance)
 
