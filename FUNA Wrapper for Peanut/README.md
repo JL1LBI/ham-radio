@@ -47,7 +47,7 @@
 
 ### 4. ゼロタッチ起動 ＆ 完全連動シャットダウン
 - 事前に Peanut を手動起動しておく必要はありません。本ツールを立ち上げるだけで全て自動準備されます。
-- 初期化完了後は Peanut 本体のウィンドウが自動最小化され、TUI コンソールが最前面にフォーカスされます。
+- 初期化完了後、Peanut 本体のウィンドウは画面外へ退避され、フォーカスは常に TUI コンソール側に維持されます（Peanut にフォーカスを奪われることはありません）。
 - `q` キーで本ツールを終了すると、バックグラウンドで動作しているすべての Peanut プロセスも安全に一括終了します。
 
 ### 5. 美しいレスポンシブ MS-DOS 風 TUI ＆ 東アジア文字幅完全対応
@@ -57,6 +57,11 @@
 ### 6. 高速インクリメンタル検索対応 ルームセレクター（[m] キー）
 - コンボボックスを展開することなく、Win32 API（`CB_GETLBTEXT`）でルーム一覧をミリ秒単位で一括ロード。
 - アルファベット入力によるリアルタイム絞り込み検索、矢印キーによる選択が可能。
+
+### 7. Red Alert アクティブ VFO 表示（v3.10.0 新機能）
+- 送信対象（ACTIVE）の VFO は、ステータスボックス全体が **鮮烈な赤背景＋太字白文字** に切り替わり、スタンバイ側は落ち着いた DOS ブルーのまま表示されます。
+- `Tab` キーを押すたびに赤と青が入れ替わるため、視界の隅で見ても「今どちらが送信対象か」が一目で分かり、意図しないルームでの誤送信（誤爆）を防ぎます。
+- なお Last Heard 欄は、視覚的に煩雑になるのを避けるため、あえて赤くせず従来どおりの表示にしています。
 
 ---
 
@@ -94,12 +99,12 @@
 コマンドプロンプトまたは Windows ターミナルで以下を実行します。
 
 ```bash
-python "FUNA Wrapper for Peanut v3.6.py"
+python "FUNA Wrapper for Peanut v3.10.0.py"
 ```
 
 > **重要**:  
 > 起動シークエンス（ステップ 1/5 〜 5/5）が完了し、ブルーのメインコンソール画面が表示されるまで、**マウスやキーボードを操作せずそのままお待ちください**。  
-> 接続完了後、自動的に Peanut は最小化され、コンソールが最前面になります。
+> 接続完了後も Peanut がフォーカスを奪うことはありません。操作はすべてコンソール側で行います。
 
 ---
 
@@ -125,10 +130,18 @@ python "FUNA Wrapper for Peanut v3.6.py"
 
 ## ファイル構成
 
-- **`FUNA Wrapper for Peanut v3.6.py`**  
+- **`FUNA Wrapper for Peanut v3.10.0.py`**  
   メインの統合アプリケーション。デュアル Peanut のライフサイクル管理、MS-DOS 風レスポンシブ TUI レンダリング、東アジア文字幅計算、モーメンタリ PTT スレッド、ポップアップルームセレクターを統合。
 - **`peanut_driver_v2.py`**  
   Peanut 制御用のコア・ドライバモジュール。Win32 メッセージ直接送信による超高速なステータス取得・コントロールキャッシュ・ルームリスト取得機能を実装した単体検証用ドライバ。
+
+---
+
+## 更新履歴
+
+### v3.10.0 Red Alert Edition
+- **フォーカス占有の徹底**: 起動時に Peanut 本体へウィンドウフォーカスが奪われる問題を解消しました。Peanut は最小化・非アクティブ状態で起動して画面外に退避され、すべての操作は Win32 メッセージ経由で行われるため、フォーカスは常にターミナル（本ツール）側に維持されます。
+- **Red Alert アクティブ VFO 表示**: 送信対象 VFO のステータスボックス全体を赤背景＋太字白文字で表示するようになり、PTT の誤爆防止が強化されました。
 
 ---
 
@@ -188,7 +201,7 @@ Simply running this application will **automatically spawn two instances of Pean
 
 ### 4. Zero-Touch Boot & Synchronized Shutdown
 - No need to launch Peanut manually. The script manages the entire startup and connection sequence.
-- Once ready, Peanut GUI windows are automatically minimized, and the console window is brought to the front.
+- Once ready, Peanut GUI windows are moved off-screen, and keyboard focus stays on the console at all times (Peanut never steals focus).
 - Pressing `q` terminates the wrapper and gracefully closes all associated Peanut processes.
 
 ### 5. Responsive MS-DOS Blue TUI with East-Asian Width Support
@@ -198,6 +211,11 @@ Simply running this application will **automatically spawn two instances of Pean
 ### 6. Lightning-Fast Room Selector ([m] Key)
 - Extracts room listings directly via Win32 messages (`CB_GETLBTEXT`) within milliseconds.
 - Features real-time incremental filter search and intuitive arrow-key navigation.
+
+### 7. Red Alert Active-VFO Display (New in v3.10.0)
+- The active (transmit-target) VFO's entire status box switches to a **vivid red background with bold white text**, while the standby side stays calm DOS blue.
+- Because red and blue swap with every `Tab` press, you can tell at a glance — even from the corner of your eye — which VFO will transmit, preventing accidental transmissions in the wrong room.
+- The Last Heard sections are intentionally left uncolored to avoid visual overload.
 
 ---
 
@@ -235,12 +253,12 @@ Simply running this application will **automatically spawn two instances of Pean
 Open Command Prompt or Windows Terminal and run:
 
 ```bash
-python "FUNA Wrapper for Peanut v3.6.py"
+python "FUNA Wrapper for Peanut v3.10.0.py"
 ```
 
 > **Note**:  
 > Please **do not interact with the mouse or keyboard** during the 5-step boot sequence.  
-> Once initialized, Peanut windows will be minimized and the active console will take focus automatically.
+> Once initialized, Peanut never steals focus; all operation stays on the console.
 
 ---
 
@@ -266,10 +284,18 @@ python "FUNA Wrapper for Peanut v3.6.py"
 
 ## File Description
 
-- **`FUNA Wrapper for Peanut v3.6.py`**:  
+- **`FUNA Wrapper for Peanut v3.10.0.py`**:  
   The complete standalone TUI console application. Contains instance lifecycle management, responsive rendering engine, East Asian character width alignment, background activity polling, and momentary PTT handling.
 - **`peanut_driver_v2.py`**:  
   Standalone low-level driver module utilizing Win32 API messages for high-speed control, UI element caching, and diagnostic benchmarking.
+
+---
+
+## Changelog
+
+### v3.10.0 Red Alert Edition
+- **Terminal focus dominance**: Fixed Peanut stealing window focus at startup. Peanut now spawns minimized/no-activate and is kept off-screen; all control is done via Win32 messages, so focus always remains on the terminal (this wrapper).
+- **Red Alert active-VFO display**: The transmit-target VFO status box is now rendered entirely in red with bold white text, strengthening protection against accidental PTT transmissions.
 
 ---
 
