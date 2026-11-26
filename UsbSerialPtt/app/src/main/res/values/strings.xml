@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UsbSerialPtt</string>
+    <string name="accessibility_service_description">USBシリアル変換ケーブルの入力ピン変化を検出し、指定座標のPTTボタンを押し続けます。</string>
+</resources>
