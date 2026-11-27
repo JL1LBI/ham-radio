@@ -6,6 +6,10 @@ USBシリアル変換器の制御線（CTS / DSR / CD / RI）を、Android上の
 
 デモ動画（スマートフォン＋Super Kurchunk）: https://youtu.be/gL1hC6ltb88
 
+## ダウンロード
+
+**[Usbserialptt.apk — Google Drive](https://drive.google.com/file/d/17MlE17ef1WRMBeqdrutXdPQrNKZYVSeW/view?usp=drivesdk)**（Android用、約6.3MB。ビルド済みのAPKです。そのまま端末にインストールできます）
+
 ## 仕組み
 
 - ユーザー補助サービス（AccessibilityService）がUSBシリアル変換器に接続し、選択した制御線を10ms周期でポーリングします（簡易チャタリング除去付き）。
