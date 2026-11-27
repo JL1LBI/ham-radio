@@ -4,6 +4,10 @@ A listen-only "watch" client for [QSO One](https://qso1.net) Beacon rooms, style
 
 日本語の説明は下部にあります。
 
+## Download
+
+**[QSO One Watch.exe — Google Drive](https://drive.google.com/file/d/1hU43-qJ4YeutCLnU96sBcAvTrSiqinzU/view?usp=drivesdk)** (Windows, single file, approx. 46 MB — no installation needed, just run the exe)
+
 ## Features
 
 - **Triple-VFO simultaneous watch** — monitor up to 3 Beacon rooms at the same time; audio is mixed and played through a single output
